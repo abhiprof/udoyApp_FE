@@ -14,6 +14,7 @@ function App() {
   return (
     <>
       <div>
+        <h1>Hello</h1>
       {jokes.map((joke,index)=>{
         <h3>{joke.title}</h3>
       })}
